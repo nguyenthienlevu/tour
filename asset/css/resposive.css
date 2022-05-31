@@ -1,0 +1,213 @@
+/* TABLE AND MOBILE */
+@media (max-width: 1023px){
+.T-M-NONE {
+  display:none;
+}
+
+.header__nav {
+  background-color: var(--Dark-gray-color);
+}
+
+.nav__bar-btn {
+background-color: var(--Dark-gray-color);
+}
+
+.nav-input:checked ~ .nav__overlay {
+display: block;
+}
+
+  .nav-input:checked ~ .header__nav-mobile{
+transform: scaleX(1);
+}
+
+.header__nav-list {
+display: none;
+}
+
+.nav__bar-btn-icon {
+display: block;
+}
+
+.header__heading-search {
+width: 100%;
+}
+
+.header__nav-mobile-link {
+color: var(--white-color);
+}
+
+.header__nav-mobile-link:hover {
+color: #000;
+}
+
+.header__event {
+display: block;
+text-align:center;
+}
+
+.header__event-location {
+margin-bottom: 20px;
+}
+.header__img {
+height: 1300px;
+width: 1220px;
+}
+
+.content__view {
+display: block;
+text-align: center;
+}
+
+.content__beach-nation {
+display: block;
+}
+
+.content__beach-img {
+border-radius: 0;
+margin-top: 30px;
+}
+
+.content__calendar-end:hover::after {
+display: none;
+}
+
+.content__tour-nation {
+display: block;
+}
+
+.contet__poster{
+display: block;
+}
+
+.content__promotion-overview {
+display: block;
+}
+
+/* .content__overview-package2::after,
+.content__overview-package1::after,
+.content__overview-package::after {
+  top: 408px;
+} */
+
+.content__overview-package2::before,
+.content__overview-package1::before,
+.content__overview-package::before {
+  top: 394px;
+}
+
+.content__overview-package-travel {
+  top: 404px;
+  right: 32px;
+}
+
+.footer__element-Contact {
+display: block;
+}
+
+.footer__lement-end {
+display: none;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+/* index2 */
+.content__introduct {
+  display: block;
+}
+
+.header__img-index2 {
+height: 265px;
+width: 100%;
+}
+}
+
+/* TABLE  */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .element-brand-Donor {
+    max-width: 9;
+  }
+}
+/* MOBILE */
+@media (max-width: 739px) {
+.heading__heading-text1 {
+line-height: 50px;
+}
+
+.heading__heading-text2 {
+line-height:30px;
+}
+
+.view__holiday {
+font-size: 5rem;
+}
+
+.content__heading-1, .content__heading-2 {
+  margin-top: 10px;
+}
+
+.content__name,.content__beach-best{
+text-align: center;
+}
+
+.content__heading-1, .content__heading-2 {
+    padding: 0;
+}
+
+/* .content__overview-package2::after,
+.content__overview-package1::after,
+.content__overview-package::after {
+ display: none;
+} */
+
+.content__overview-package2::before,
+.content__overview-package1::before,
+.content__overview-package::before {
+display: none;
+}
+
+.content__overview-package-travel {
+display: none;
+}
+
+.content__beach-nation {
+  margin: 0;
+}
+
+.content__time {
+right: 0;
+width: 100%;
+}
+
+.footer__element-brand-Donor {
+padding: 20px 0;
+}
+
+.element-brand-img {
+display: block;
+margin: 0 auto;
+}
+
+.footer__element-heading {
+margin: 5px 0;
+display: none;
+}
+
+.content__time-number {
+  font-size:2.6rem ;
+}
+
+.content__time-date {
+  font-size: 1.6rem;
+}
+
+.ticket {
+  /* display: none; */
+}
+}
