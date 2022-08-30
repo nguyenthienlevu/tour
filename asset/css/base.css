@@ -178,6 +178,9 @@ z-index: 3;
 }
 
 .lable__form-or::after {
+
+
+    
 display: block;
 position: absolute;
 content: "";
