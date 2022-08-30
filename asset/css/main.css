@@ -9,17 +9,6 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-/* .header__img {
-background-position: 50% 50%;
-background-size: cover;
-background-repeat: no-repeat;
-width: 100%;
-height: 670px;
-position: relative;
-display: flex;
-z-index: -2;
-} */
-
 .header__nav {
 position: absolute;
 height:var(--height-header-nav);

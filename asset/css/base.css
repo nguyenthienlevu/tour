@@ -51,6 +51,16 @@ margin-top: 40px;
 
 .btn {
 font-size: 1.9rem;
+color: var(--white-color);
+border-radius:30px;
+margin:0px 0px 0px 25px;
+padding:12px 15px 10px;
+border: none;
+cursor: pointer;
+}
+
+.btn__close {
+font-size: 1.9rem;
 background-color:var(--purple-color);
 color: var(--white-color);
 border-radius:30px;
@@ -67,6 +77,10 @@ margin-left: -5px;
 .btn:hover {
 filter:saturate(0.6);
 }
+
+.btn__close:hover {
+filter:saturate(0.6);
+}
  /* Registered form */
 
 .modal {
@@ -81,18 +95,14 @@ display: none;
 animation: top linear .3s;
 }
 
-.modal:target {
-display: block;
-}
-
 .modal__overlay-close {
 position: absolute;
 width: 100%;
 height: 100%;
 }
 
-.modal__overlay:target {
-display: none;
+.block {
+ display: block;
 }
 
 .modal__overlay {
@@ -125,7 +135,7 @@ width: 100%;
 font-size: 3.2rem;
 font-weight: 800;
 color: #353A40;
-padding: 20px 0 40px;
+padding-bottom: 20px;
 text-align: center;
 }
 
@@ -136,7 +146,7 @@ padding: 6px;
 border-radius: 12px;
 border: none;
 background-color: #4C6EF4;
-margin-bottom: 30px;
+margin-bottom: 10px;
 box-shadow: 0 10px 15px #bccafb
 }
 
@@ -165,7 +175,6 @@ color: var(--Dark-gray-color);
 display: flex;
 justify-content: center;
 z-index: 3;
-margin-bottom: 30px;
 }
 
 .lable__form-or::after {
@@ -179,7 +188,6 @@ background-color: #cfd3d8;
 }
 
 .lable__form-or span {
-padding: 10px;
 background-color: var(--white-color);
 z-index: 1;
 }
@@ -193,12 +201,19 @@ color: var(--Light-gray-color);
 
 .lable__form-fill {
 width: 100%;
-padding: 15px;
+padding: 12px;
 border-radius: 10px;
 border: none;
 background-color: #F2F3F5;
-color: var(--Light-gray-color);
+color: #000;
 font-size: 1.6rem;
+outline: none;
+}
+
+.error {
+ font-size: 1.4rem;
+ color: red;
+ margin-left: 5px;
 }
 
 .signup__btn-sign-up {
@@ -240,23 +255,23 @@ text-decoration: none;
 }
 
 @keyframes top {
-    from {
-        opacity: 0;
-        top: -100%;
-    }
-    to {
-        opacity: 1;
-        top: 0;
-    }
+ from {
+  opacity: 0;
+  top: -100%;
+ }
+ to {
+  opacity: 1;
+  top: 0;
+ }
 }
 
 @keyframes bottom {
-    from {
-        opacity: 1;
-        top: 0;
-    }
-    to {
-        opacity: 0;
-        top: -100%;
-    }
+ from {
+  opacity: 1;
+  top: 0;
+ }
+ to {
+  opacity: 0;
+  top: -100%;
+ }
 }
